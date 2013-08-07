@@ -11,6 +11,12 @@
 
   <!-- Google fonts -->
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+
+  <style type="text/css">
+
+  	body { padding-top: 70px; }
+  
+  </style>
 <head>
 
 <body data-spy="scroll" data-target="#navbar">
@@ -21,10 +27,24 @@
 	    	<h3>A CIKM '13 Tutorial</h3>
 	    	<h1>Real-time Bidding: A New Frontier of Computational Advertising Research</h1>
 	    </div>
-	  </div>
+ 	</div>
+
+ 	<div class="navbar navbar-fixed-top" id="navbar">
+ 		<div class="navbar-inner">
+ 			<div class="container">
+ 				<a class="navbar-brand" href="#">RTB Tutorial</a>
+ 				<ul class="nav navbar-nav">
+ 					<li class="active"><a href="#basic-information">Basic Information</a></li>
+ 					<li><a href="#speakers-affliations">Speakers and Affliations</a></li>
+ 					<li><a href="#full-description">Full Description</a></li>
+ 					<li><a href="#key-references">Key References</a></li>
+ 				</ul>
+ 			</div>
+		</div>
+	</div>
 
 	  <div class="container">
-	  	<h2>Basic Information</h2>
+	  	<h2 id="basic-information">Basic Information</h2>
 	  </div>
 
 	  <div class="container">
@@ -48,24 +68,31 @@
 	  </div>
 
 	  <div class="container">
-		<h2>Speakers and Affliations</h2>
+		<h2 id="speakers-affliations">Speakers and Affliations</h2>
 
-		<p><a href="http://www.cs.ucl.ac.uk/staff/J.Wang/">Dr Jun Wang</a> is a Senior Lecturer (Associate Professor) in University College London. His main research interests are statistical modelling of information retrieval, collaborative filtering and recommender systems, and computational advertising. His team has been working on bringing financial methods into computational advertising and is the first to introduce options contracts for selling online ads. Jun has published over 70 research papers in leading journals and conference proceedings including ACM Trans. on Information Systems, IEEE Trans. on Multimedia, ACM Multimedia System Journal, WWW, CIKM, ACM SIGIR, SIGMM. He was a recipient of the Beyond Search – Semantic Computing and Internet Economics award in 2007; he also received the Best Doctoral Consortium award in ACM SIGIR06 for his work on collaborative filtering, the Best Paper Prize in ECIR09 for his work on applying Modern Portfolio Theory of Finance (Mean-variance Analysis) to document ranking in Information Retrieval, and the Best Paper Prize in ECIR12 for top-k retrieval modelling.  Jun’s recent service includes (Senior) Program Committees for SIGIR, CIKM, and RecSys. He has extensive experiences in giving tutorials on top conferences; his recent tutorials about risk management and portfolio theory of information retrieval were given in CIKM2011 and ECIR2011. He has addressed a keynote on real-time bidding and financial methods for computational advertising in SIGIR  2013 workshop on Internet Advertising: Theory and Practice. 
-		</p>
+		<div class="row">
+		<div class="col-lg-6"><img src="img/j.wang.jpg" style="float: left; margin: 0 20px 0 0;" /><a href="http://www.cs.ucl.ac.uk/staff/J.Wang/">
+		<p>Dr Jun Wang</a> is a Senior Lecturer (Associate Professor) in University College London. His main research interests are statistical modelling of information retrieval, collaborative filtering and recommender systems, and computational advertising. His team has been working on bringing financial methods into computational advertising and is the first to introduce options contracts for selling online ads. Jun has published over 70 research papers in leading journals and conference proceedings including ACM Trans. on Information Systems, IEEE Trans. on Multimedia, ACM Multimedia System Journal, WWW, CIKM, ACM SIGIR, SIGMM. He was a recipient of the Beyond Search – Semantic Computing and Internet Economics award in 2007; he also received the Best Doctoral Consortium award in ACM SIGIR06 for his work on collaborative filtering, the Best Paper Prize in ECIR09 for his work on applying Modern Portfolio Theory of Finance (Mean-variance Analysis) to document ranking in Information Retrieval, and the Best Paper Prize in ECIR12 for top-k retrieval modelling.  Jun’s recent service includes (Senior) Program Committees for SIGIR, CIKM, and RecSys. He has extensive experiences in giving tutorials on top conferences; his recent tutorials about risk management and portfolio theory of information retrieval were given in CIKM2011 and ECIR2011. He has addressed a keynote on real-time bidding and financial methods for computational advertising in SIGIR  2013 workshop on Internet Advertising: Theory and Practice. </p></div>
 
-		<p><a href="http://sifaka.cs.uiuc.edu/xshen/">Dr Xuehua Shen</a> is CTO and co-founder of iPinYou. He received BSc of Computer Science in Nanjing University, China, and PhD of Computer Science at University of Illinois at Urbana-Champaign, USA. His PhD thesis is personalized search. After PhD research, he worked in Google search quality team at Mountain View, CA, doing personalized search, and search quality live experiment platform based on real user interactions. He then worked in BlueKai, the biggest data exchange and Data Management Platform (DMP) in Silicon Valley, using Hadoop cloud-computing platform to do personalized ads and predictive modelling. Now, he is the CTO and co-founder of iPinyou.</p>
+		<div class="col-lg-6"><img src="img/x.shen.jpg" style="float: left; margin: 0 20px 0 0;" /><p><a href="http://sifaka.cs.uiuc.edu/xshen/">Dr Xuehua Shen</a> is CTO and co-founder of iPinYou. He received BSc of Computer Science in Nanjing University, China, and PhD of Computer Science at University of Illinois at Urbana-Champaign, USA. His PhD thesis is personalized search. After PhD research, he worked in Google search quality team at Mountain View, CA, doing personalized search, and search quality live experiment platform based on real user interactions. He then worked in BlueKai, the biggest data exchange and Data Management Platform (DMP) in Silicon Valley, using Hadoop cloud-computing platform to do personalized ads and predictive modelling. Now, he is the CTO and co-founder of iPinyou.</p></div>
+		</div>
 
-		<p>Dr Samuel Seljan is a Quantitative Analyst at AppNexus. His work has focused on supply-side optimization, including the development of algorithms to improve the allocation of impressions across RTB and non-RTB markets and reserve price optimization. He obtained a PhD in Political Science from the University of California, San Diego in 2010, where he specialized in international political economy. His dissertation used prediction market and stock market data to estimate beliefs about the effect of international conflict across industries.</p>
+		<div class="row">
+		<div class="col-lg-6"><img src="img/s.seljan.jpg" style="float: left; margin: 0 20px 0 0;" /><p>Dr Samuel Seljan is a Quantitative Analyst at AppNexus. His work has focused on supply-side optimization, including the development of algorithms to improve the allocation of impressions across RTB and non-RTB markets and reserve price optimization. He obtained a PhD in Political Science from the University of California, San Diego in 2010, where he specialized in international political economy. His dissertation used prediction market and stock market data to estimate beliefs about the effect of international conflict across industries.</p></div>
 
-		<p><a href="http://www.yuan-shuai.info">Shuai Yuan</a> is completing his PhD thesis in University College London. He has been working on mathematical models of online advertising with a number of companies such as Advanced International Media, Bright, Dot.tk, and Miaozhen. He has the background of information retrieval, data mining, machine learning, and economic theories; his research interests on computational advertising have been focused on RTB, statistical arbitrage, and supply side optimisation. Shuai Yuan has published several related research papers in top-tier conferences and workshops including CIKM and ADKDD. Among them, he published the first empirical study on RTB. He also contributes to an open advertising dataset project.</p>
+		<div class="col-lg-6"><img src="img/s.yuan.jpg" style="float: left; margin: 0 20px 0 0;" /><p><a href="http://www.yuan-shuai.info">Shuai Yuan</a> is completing his PhD thesis in University College London. He has been working on mathematical models of online advertising with a number of companies such as Advanced International Media, Bright, Dot.tk, and Miaozhen. He has the background of information retrieval, data mining, machine learning, and economic theories; his research interests on computational advertising have been focused on RTB, statistical arbitrage, and supply side optimisation. Shuai Yuan has published several related research papers in top-tier conferences and workshops including CIKM and ADKDD. Among them, he published the first empirical study on RTB. He also contributes to an open advertising dataset project.</p></div>
+		</div>
 
-		<p><a href="http://www.ipinyou.com">iPinYou</a> is the largest Demand Side Platform (DSP) and the leader of audience targeting and real-time advertising in China. It makes intelligent decision for more than 3 billion ads impressions each day. In the past two years, iPinYou is the pioneer of programmatic buying of display media in China and organizes the annual RTB Summit. It has more than 150 employees and is headquartered in Beijing and has offices in Shanghai, Guangzhou, and Silicon Valley.</p>
+		<div class="row">
+		<div class="col-lg-6"><img src="img/ipinyou.jpg" style="float: left; margin: 0 20px 0 0;" /><p><a href="http://www.ipinyou.com">iPinYou</a> is the largest Demand Side Platform (DSP) and the leader of audience targeting and real-time advertising in China. It makes intelligent decision for more than 3 billion ads impressions each day. In the past two years, iPinYou is the pioneer of programmatic buying of display media in China and organizes the annual RTB Summit. It has more than 150 employees and is headquartered in Beijing and has offices in Shanghai, Guangzhou, and Silicon Valley.</p></div>
 
-		<p><a href="http://www.appnexus.com">AppNexus</a> is one of the largest real-time advertising platforms (exchanges). As of 2010, the company auctions more than four billion ads per day on a real-time basis. As an ad exchange, it offers one of the most powerful, open and customizable advertising technology platforms, serves many of the largest and most innovative buyers and sellers of online advertising, including Microsoft Advertising Exchange, Interactive Media (Deutsche Telekom), and Collective Exchange. Led by the pioneers of the Web’s original ad exchanges at Yahoo!’s Right Media and Google’s DoubleClick, AppNexus offers an advanced technology platform that empowers companies to build, manage, and optimize their entire online advertising businesses. Every day, hundreds of companies around the globe buy and sell billions of online ads using AppNexus' real-time ad serving technology, advanced yield management controls, optimization algorithms, and patented brand and safety monitoring.</p>
+		<div class="col-lg-6"><img src="img/appnexus.jpg" style="float: left; margin: 0 20px 0 0;" /><p><a href="http://www.appnexus.com">AppNexus</a> is one of the largest real-time advertising platforms (exchanges). As of 2010, the company auctions more than four billion ads per day on a real-time basis. As an ad exchange, it offers one of the most powerful, open and customizable advertising technology platforms, serves many of the largest and most innovative buyers and sellers of online advertising, including Microsoft Advertising Exchange, Interactive Media (Deutsche Telekom), and Collective Exchange. Led by the pioneers of the Web’s original ad exchanges at Yahoo!’s Right Media and Google’s DoubleClick, AppNexus offers an advanced technology platform that empowers companies to build, manage, and optimize their entire online advertising businesses. Every day, hundreds of companies around the globe buy and sell billions of online ads using AppNexus' real-time ad serving technology, advanced yield management controls, optimization algorithms, and patented brand and safety monitoring.</p>
+		</div>
+		</div>
 	  </div>
 
 	  <div class="container">
-	  	<h2>Full Description</h2>
+	  	<h2 id="full-description">Full Description</h2>
 
 	  	<h3>Keywords</h3>
 
@@ -89,7 +116,7 @@
 
 		<p>We expect the audience, after attending the tutorial, to understand the real-time online advertising mechanisms and the state of the art techniques, as well as to grasp the research challenges in this field. Our motivation is to help the audience acquire domain knowledge and obtain relevant datasets, and to promote research activities in RTB and computational advertising in general. </p>
 
-		<h2>Description of topics</h2>
+		<h3>Description of topics</h3>
 
 		<p>The demand side Web advertising has long promised to provide marketers with a more objective measurement of its value than print or television marketing. Indeed, a large percentage of display and mobile ads are valued on the basis of how often users convert on an advertiser's offer — such as buying a product, signing up for a service, or downloading an app [39]. With the emergence of RTB, the calculations of the probability of such events have become more and more precise. Thus, it would appear that online, advertisers only pay for campaigns and inventory that work. Therefore, a natural challenge is to allocate budgets to high performance inventories and segments, where a general exploration and exploitation dilemma is introduced [42]. Besides, since conversions occur separately from the display of the ads themselves and because many ads can be seen before conversions occur, a choice must be made as to how to attribute conversions to an ad or among ads. Given the scale of RTB, simply assigning the conversion to the most recent associated ad—known as last touch attribution—is a common choice, even though it is known to be an imperfect option. In addition, some marketers prefer to split conversion attribution among all associated ads. Assigning attribution across ads presents additional analytical and technical challenges that the ad tech industry has yet to fully address [37].</p>
 
@@ -123,7 +150,7 @@
 	  </div>
 
 	  <div class="container">
-	  	<h2>Key References</h2>
+	  	<h2 id="key-references">Key References</h2>
 
 	  	<p>[1] Abramson, M. Toward the attribution of web behavior. In 2012 IEEE Symposium on CISDA (2012).</p>
 		<p>[2] Anagnostopoulos, A., Broder, A. Z., Gabrilovich, E., Josifovski, V., and Riedel, L. Just-in-time contextual advertising. In Proceedings of the ACM CIKM 2007.</p>
@@ -195,7 +222,7 @@
 
 <!-- Additional js -->
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
